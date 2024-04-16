@@ -1,0 +1,43 @@
+
+> seleniumtestsforcacheit@1.0.0 test
+> jest --verbose --runInBand --detectOpenHandles --forceExit
+
+PASS tests/internshipPage.test.js (8.552 s)
+  Internship Page Test
+    √ should display correct header on internships page (34 ms)
+    √ should display internships (3367 ms)
+
+PASS tests/companyPage.test.js (6.942 s)
+  Company Page Tests
+    √ company card details check (44 ms)
+    √ search box functionality (1380 ms)
+    √ View Card Profile (462 ms)
+
+PASS tests/membersPage.test.js (5.833 s)
+  Members Page Tests
+    √ should display member list items (888 ms)
+    √ should verify the name of a specific member (30 ms)
+    √ should verify that "Show Profile" button is clickable (15 ms)
+
+PASS tests/login.test.js (5.871 s)
+  Login Test
+    √ should fail if email is not entered (365 ms)
+    √ should fail if password is not entered (391 ms)
+    √ should fail if email does not include "@eagle.fgcu.edu" (373 ms)
+    √ should successfully login by typing an email, password and click login button (839 ms)
+
+PASS tests/postsPage.test.js (6.068 s)
+  Posts Page Tests
+    √ should display more than 0 posts (866 ms)
+    √ should check the title of the first post (34 ms)
+
+PASS tests/homePage.test.js
+  Home Page
+    √ Checks the Lander header text (974 ms)
+    √ Checks for (241 ms)
+
+Test Suites: 6 passed, 6 total
+Tests:       16 passed, 16 total
+Snapshots:   0 total
+Time:        38.069 s
+Ran all test suites.
